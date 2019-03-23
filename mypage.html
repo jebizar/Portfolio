@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio</title>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bulma.min.css">
+  <link rel="stylesheet" href="css/bulma.css">
+
+</head>
+
+<body>
+  <section class="hero is-primary is-fullheight">
+    <div class="hero-head">
+      <header class="navbar">
+        <div class="container">
+          <div class="navbar-brand">
+            <a class="navbar-item bit-text orange is-size-1">
+              JB
+            </a>
+            <span class="navbar-burger burger is-white" data-target="navbarMenuHeroC">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </div>
+          <div id="navbarMenuHeroC" class="navbar-menu">
+            <div class="navbar-start">
+              <a class="navbar-item is-size-5" data-target="#slide" data-slide-to="0">
+                About
+              </a>
+              <a class="navbar-item is-size-5" data-target="#slide" data-slide-to="1">
+                Portfolio
+              </a>
+              <a class="navbar-item is-size-5" data-target="#slide" data-slide-to="2">
+                Contact
+              </a>
+            </div>
+            <div class="navbar-end">
+              <a class="navbar-item is-size-3" href="https://www.linkedin.com/in/joseph-bizar/">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a class="navbar-item is-size-3" href="https://github.com/jebizar">
+                <i class="fab fa-github-square"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+
+    <div class="hero-body">
+      <div class="container">
+        <div id="slide" class="carousel slide" data-ride="carousel" data-interval="false">
+          <ol class="carousel-indicators">
+            <li data-target="#slide" data-slide-to="0" class="active"></li>
+            <li data-target="#slide" data-slide-to="1"></li>
+            <li data-target="#slide" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div>
+                <div class="columns is-mobile">
+                  <div class="column is-one-half">
+                    <h1 class="title bit-text orange space">
+                      Who am I
+                    </h1>
+                    <h2 class="subtitle">
+                      My name is Joseph Bizar and I am a Fullstack developer who recently completed a Web Developer
+                      course with the University of Washington. Looking to be a part of a company that values work
+                      culture and strives to improve industry standards, develop professional skills, and promotes a fun
+                      team environment.
+                    </h2>
+                    <h2 class="subtitle">
+                      I'm bilingual in English and Mandarin with a culturally diverse background having lived in
+                      multiple overseas countries. In my spare time I enjoy weightlifting, playing tennis, and even
+                      computer gaming. I love to see progression in my own abilities to compete with myself and others.
+                    </h2>
+                    <h2 class="subtitle">
+                      If you have an opportunity that I can be involved with, please direct yourself to the contact me
+                      tab.
+                    </h2>
+                  </div>
+                  <div class="column is-one-half has-text-centered">
+                    <img src="css/portrait.png" alt="portrait" height="75%" width="75%">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div>
+                <div class="columns is-mobile is-multiline">
+                  <div class="column is-one-quarter">
+                    <img src="css/mammoth.jpg" class="roundedCorners">
+                  </div>
+                  <div class="column is-one-quarter">
+                    <img src="css/grocery.png" class="roundedCorners">
+                  </div>
+                  <div class="column is-one-quarter">
+                    <img src="css/bamazon.jpg" class="roundedCorners">
+                  </div>
+                  <div class="column is-one-quarter">
+                    <img src="css/imagegame.png" class="roundedCorners">
+                  </div>
+                  <div class="column is-one-quarter">
+                    <img src="css/traintime.png" class="roundedCorners">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div>
+                <div class="columns is-mobile">
+                  <div class="column is-one-half">
+                    <div class="field">
+                      <label class="label bit-text orange">Name</label>
+                      <div class="control">
+                        <input class="input" type="text" placeholder="John Smith">
+                      </div>
+                    </div>
+                    <div class="field">
+                      <label class="label bit-text orange">Email</label>
+                      <div class="control has-icons-left has-icons-right">
+                        <input class="input" type="email" placeholder="johnsmith@gmail.com">
+                        <span class="icon is-small is-left">
+                          <i class="fas fa-envelope"></i>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="field">
+                      <label class="label bit-text orange">Message</label>
+                      <div class="control">
+                        <textarea class="textarea" placeholder="Comment"></textarea>
+                      </div>
+                    </div>
+                    <div class="field">
+                      <div class="control">
+                        <button class="button is-success">Submit</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="column is-one-quarter bit-text orange is-size-4">
+                    <ul id="addPadding">
+                      <li>NAME</li>
+                      <li>LOCATION</li>
+                      <li>EMAIL</li>
+                      <li>PHONE</li>
+                    </ul>
+                  </div>
+                  <div class="column is-one-quarter is-size-4">
+                    <ul>
+                      <li>Joseph Bizar</li>
+                      <li>Seattle, WA</li>
+                      <li>jebizar@gmail.com</li>
+                      <li>(425) 877-8990</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#slide" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#slide" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

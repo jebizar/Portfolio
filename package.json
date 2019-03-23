@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My portfolio",
+  "main": "sass/mystyles.scss",
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url mystyles.scss css/bulma.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "bulma": "^0.7.4",
+    "bulma-carousel": "^4.0.3",
+    "jquery": "^3.3.1",
+    "node-sass": "^4.11.0",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "bulma": "^0.7.2",
+    "node-sass": "^4.9.2"
+  }
+}

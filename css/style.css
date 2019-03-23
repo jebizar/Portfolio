@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'bit';
+    src: url('bit.ttf');
+}
+
+.bit-text{
+    font-family: bit;
+
+}
+
+.orange{
+    color:rgb(255, 115, 0) !important;
+}
+
+.space{
+    padding-bottom:5%;
+}
+
+.navbar{
+    padding:0;
+}
+
+.roundedCorners {
+    border-radius: 25px;
+    border: 4px solid rgb(0, 11, 105); 
+    width: 100%; 
+    height: 235px
+  }
+
+.field{
+    width:80%;
+    margin: 0 auto;
+}
+ .carousel-item{
+     height:500px;
+ }
+
+ #addPadding{
+     padding-left:30%;
+ }
